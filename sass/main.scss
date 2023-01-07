@@ -122,7 +122,7 @@ footer {
     display: block;
   }
 
-  .menu_deroulant:active > .sous-menu {
+  .menu_deroulant:checked > .sous-menu {
     background-color: red;
   }
 
