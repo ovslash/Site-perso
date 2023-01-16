@@ -7,11 +7,6 @@ h2,
 h3 {
   margin: 0;
   padding: 20px;
-}
-
-h1,
-h2,
-h3 {
   text-align: center;
 }
 
@@ -306,15 +301,15 @@ h4 {
 
 @media all and (max-width: 720px) {
   h1 {
-    font-size: 50px;
-  }
-
-  h2 {
     font-size: 40px;
   }
 
-  h3 {
+  h2 {
     font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 
   h4 {
@@ -330,6 +325,7 @@ h4 {
 @media all and (max-width: 720px) {
   .presentation_texte {
     margin: 20px 0 20px;
+    font-size: 1.1rem;
   }
 }
 .presentation_logo {
@@ -399,8 +395,17 @@ a {
 
 .contenu_footer {
   display: flex;
-  align-items: center;
   justify-content: center;
+}
+
+@media all and (max-width: 720px) {
+  .contenu_footer {
+    padding-top: 7px;
+  }
+
+  .contenu_footer_texte {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
