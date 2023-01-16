@@ -89,32 +89,46 @@ footer {
 //-------------------------------------------------------------------------------------
 //                   menu déroulant           //
 
-@media all and (max-width: 720px) {
-  .menu .menu_sections {
-    display: none;
-  }
-  .label-hamburger {
-    display: flex;
-  }
-}
-
 label,
 #toggle {
   display: none;
 }
+
+.menu_sections {
+  font-size: 1.1rem;
+}
+
+.menu_sections_lien {
+  padding: 6px;
+}
+
+.menu_sections_lien:hover {
+  text-decoration: underline;
+}
+
 @media all and (max-width: 720px) {
-  .menu .menu_sections {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .menu_sections {
     display: none;
     flex-direction: column;
     background: #dddddd;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgb(221, 221, 221);
   }
 
   .label-hamburger {
-    width: 30px;
     display: flex;
+    padding-right: 10px;
   }
+
   #toggle:checked + .menu_sections {
     display: flex;
+    align-items: end;
   }
 }
 
@@ -257,14 +271,15 @@ label,
 
 .entete {
   display: flex;
-
   justify-content: space-between;
-  padding: 0 10px 0 10px;
+  padding: 10px;
+  align-items: center;
 }
 
 @media all and (max-width: 720px) {
   .entete {
     padding: 6px 0 0 0;
+    align-items: baseline;
   }
 }
 
