@@ -96,6 +96,7 @@ footer {
 @media all and (max-width: 720px) {
   .btn {
     display: block;
+    margin: 0 10px 0 0;
   }
 
   .menu {
