@@ -401,7 +401,7 @@ a {
   justify-content: center;
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 1080px) {
   .contenu_footer {
     padding-top: 7px;
   }
