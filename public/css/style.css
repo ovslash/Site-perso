@@ -63,7 +63,7 @@ footer {
   height: 50px;
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 1080px) {
   header,
 footer {
     height: 30px;
@@ -93,7 +93,7 @@ footer {
   text-decoration: underline;
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 1080px) {
   .btn {
     display: block;
     margin: 0 10px 0 0;
@@ -261,7 +261,7 @@ footer {
   font-size: 1.5rem;
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 1080px) {
   .entete_nom {
     font-size: 1rem;
     padding-left: 10px;
@@ -373,11 +373,15 @@ a {
   text-align: center;
 }
 
+@media all and (max-width: 1080px) {
+  .contenu_interet_details {
+    max-width: 100%;
+  }
+}
 @media all and (max-width: 720px) {
   .contenu_interet_details {
     border-radius: 0px;
     margin: 20px 0 20px 0;
-    max-width: 100%;
   }
 }
 .apel_p {
