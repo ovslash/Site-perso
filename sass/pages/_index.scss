@@ -219,6 +219,11 @@ header {
   justify-content: space-between;
   width: 100%;
 
+  img {
+    width: 500px;
+    height: 50px;
+  }
+
   &_details {
     background-color: white;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
