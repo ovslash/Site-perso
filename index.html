@@ -11,24 +11,22 @@
     <header>
       <div class="contenu entete">
         <div class="entete_nom">Olivier VILLAVERDE</div>
-        <menu class="menu_liste">
-          <li class="menu_liste_element">
-            <a href="#presentation">Présentation</a>
-          </li>
-          <li class="menu_liste_element">
-            <a href="#competences">Compétences</a>
-          </li>
-          <li class="menu_liste_element"><a href="#projets">Projets</a></li>
-          <li class="menu_liste_element">
-            <a href="#pro">Parcours professionnel</a>
-          </li>
-          <li class="menu_liste_element">
-            <a href="#formations">Formations</a>
-          </li>
-          <li class="menu_liste_element">
-            <a href="#centres_interet">Centres d'interêt</a>
-          </li>
-        </menu>
+
+        <!--            xxxxxxxxxx  MENU  xxxxxxxxxxxxx                -->
+        <nav class="menu">
+          <p class="btn" id="btn">☰</p>
+          <div class="menu_sections" id="menu_sections">
+            <a href="#presentation" class="menu_sections_lien">Présentation</a>
+            <a href="#competences" class="menu_sections_lien">Compétences</a>
+            <a href="#projets" class="menu_sections_lien">Projets</a>
+            <a href="#pro" class="menu_sections_lien">Parcours professionnel</a>
+            <a href="#formations" class="menu_sections_lien">Formations</a>
+            <a href="#centres_interet" class="menu_sections_lien"
+              >Centres d'interêt</a
+            >
+          </div>
+        </nav>
+        <!--            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                -->
       </div>
     </header>
 
@@ -39,39 +37,40 @@
           <h1>Développeur Web Fullstack Junior</h1>
           <h2>Présentation</h2>
           <div class="contenu_presentation">
-            <div class="photo">
+            <div class="photo_contener">
               <img
                 class="photo"
-                src="public/img/oli.jpg"
+                src="public/img/Villaverde-Olivier.jpg"
                 alt="Photo de Olivier VILLAVERDE"
               />
             </div>
             <div>
               <p class="presentation_texte">
-                Bonjour!
+                Bonjour !
                 <br /><br />
-                Je m’appelle Olivier VILLAVERDE. J’ai 43 ans, je suis marié et
-                j’ai une fille de 4 ans.
+                Je m’appelle Olivier VILLAVERDE, développeur web actuellement en
+                alternance à la MAIF, au sein de la Digital Factory.
                 <br /><br />
-                Après avoir travaillé plus de dix ans en tant que technicien et
-                animateur qualité process au sein de différents supports
-                techniques informatiques tels que OrangePro et SFRBUSINESS, j’ai
-                réalisé une reconversion professionnelle vers le développement
-                web.
+                Après une première carrière dans le support technique et
+                l’amélioration continue, j’ai entamé une reconversion vers le
+                développement web. J’ai consolidé mes compétences à travers
+                plusieurs formations, puis une expérience concrète en entreprise
+                qui m’a permis de participer à des projets en Java, Spring Boot
+                et React, dans un environnement agile.
                 <br /><br />
                 Coté Front-End, j'ai étudié les langages de bases du
                 développement web à savoir HTML, CSS et JAVASCRIPT ainsi que le
                 préprocesseur SASS qui permet notement de réaliser des
-                animations et le Framework Vue.js.
+                animations et le Framework React. J'utilise également le système
+                de gestion de contenu WordPress.
                 <br /><br />
-                Coté Back-End, c'est NodeJS qui a été mis en avant avec
-                l'utilisation des bases de données MongoDB et MySQL.
+                Coté Back-End, j'utilise SPRING BOOT, JAVA, KOTLIN et NodeJS
+                ainsi que les systèmes de gestion de base de données PostGres,
+                MongoDB, MySQL et Microsoft SQL Server.
                 <br /><br />
                 Je m’intéresse à beaucoup de chose. Je m’investis actuellement
-                au seins de l’association de parents d’élèves de l’ensemble
-                scolaire dont ma fille fait partie. J’en suis le président. Je
-                suis notamment en train de réaliser le site internet de
-                l’association au niveau départemental.
+                au seins de l'Apel, une association de parents d’élèves de
+                l’ensemble scolaire au niveau départemental et académique.
               </p>
               <div class="presentation_logo">
                 <a
@@ -84,7 +83,7 @@
                   ><img src="public/img/github.png" alt="logo github"
                 /></a>
                 <a
-                  href="public/CV_OLIVIER_VILLAVERDE_PUBLIC.pdf"
+                  href="public/CV_2025-05-04_Olivier_VILLAVERDE.pdf"
                   target="_blank"
                   ><img src="public/img/CV.png" alt="logo CV"
                 /></a>
@@ -109,20 +108,24 @@
                 </div>
                 <div>
                   <h4>Apparence du contenu affiché</h4>
-                  <img src="public/img/css3.jpg" alt="Logo HTML" />
-                  <img src="public/img/bootstrap_vue.png" alt="Logo HTML" />
+                  <img src="public/img/css3.jpg" alt="Logo CSS3" />
+                  <img
+                    src="public/img/bootstrap_vue.png"
+                    alt="Logo bootstrap_vue"
+                  />
                 </div>
                 <div>
                   <h4>Animations</h4>
-                  <img src="public/img/sass.png" alt="Logo HTML" />
+                  <img src="public/img/sass.png" alt="Logo sass" />
                 </div>
                 <div>
                   <h4>Interactions dans la page</h4>
-                  <img src="public/img/javascript.png" alt="Logo HTML" />
+                  <img src="public/img/javascript.png" alt="Logo javascript" />
                 </div>
                 <div>
                   <h4>Création interfaces et applications</h4>
-                  <img src="public/img/vuejs.png" alt="Logo HTML" />
+                  <img src="public/img/vuejs.png" alt="Logo vuejs" />
+                  <img src="public/img/react_logo(1).png" alt="REACT" />
                 </div>
               </div>
             </div>
@@ -131,24 +134,33 @@
               <h3>BackEnd</h3>
               <div>
                 <div>
-                  <h4>Environement</h4>
-                  <img src="public/img/nodejs.png" alt="Logo HTML" />
+                  <h4>Environement / Langage</h4>
+                  <img src="public/img/nodejs.png" alt="Logo nodejs" />
+                  <img src="public/img/java.png" alt="Logo java" />
+                  <img src="public/img/kotlin_logo(2).jpg" alt="KOTLIN" />
                 </div>
                 <div>
                   <h4>Framework - Serveur</h4>
-                  <img src="public/img/expressjs.png" alt="Logo HTML" />
+                  <img src="public/img/expressjs.png" alt="Logo expressjs" />
+                  <img src="public/img/spring.png" alt="Logo spring" />
                 </div>
                 <div>
                   <h4>Base de données NOSQL</h4>
-                  <img src="public/img/mongodb.png" alt="Logo HTML" />
+                  <img src="public/img/mongodb.png" alt="Logo mongodb" />
                 </div>
                 <div>
                   <h4>Base de données SQL</h4>
-                  <img src="public/img/mysql.png" alt="Logo HTML" />
+                  <img src="public/img/mysql.png" alt="Logo mysql" />
+                  <img src="public/img/sql-server.png" alt="Logo sql-server" />
+                  <img
+                    src="public/img/postgresql_logo_preview(1).png"
+                    alt="POSTGRES"
+                  />
                 </div>
                 <div>
                   <h4>ORM - Gestionnaire de base de données</h4>
-                  <img src="public/img/sequelize.png" alt="Logo HTML" />
+                  <img src="public/img/sequelize.png" alt="Logo sequelize" />
+                  <img src="public/img/jpa_logo(1).jpg" alt="JPA" />
                 </div>
               </div>
             </div>
@@ -160,49 +172,47 @@
                   <h4>IDE - Editeur de code</h4>
                   <img
                     src="public/img/Visual_Studio_Code.png"
-                    alt="Logo HTML"
+                    alt="Logo Visual_Studio_Code"
                   />
+                  <img src="public/img/eclipse.png" alt="Logo eclipse" />
+                  <img src="public/img/intelliJ_logo(1).png" alt="INTELLIJ" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>Versionning</h4>
-                  <img src="public/img/git.png" alt="Logo HTML" />
-                  <img src="public/img/github.png" alt="Logo HTML" />
-                  <img src="public/img/gitkraken.png" alt="Logo HTML" />
+                  <img src="public/img/git.png" alt="Logo git" />
+                  <img src="public/img/github.png" alt="Logo github" />
+                  <img src="public/img/gitkraken.png" alt="Logo gitkraken" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>API</h4>
-                  <img src="public/img/api_rest.png" alt="Logo HTML" />
-                  <img src="public/img/postman.png" alt="Logo HTML" />
+                  <img src="public/img/api_rest.png" alt="Logo api_rest" />
+                  <img src="public/img/postman.png" alt="Logo postman" />
+                  <img src="public/img/usebruno_logo(1).png" alt="USEBURNO" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>SEO - Référencement</h4>
-                  <img src="public/img/seo.jpg" alt="Logo HTML" />
+                  <img src="public/img/seo.jpg" alt="Logo seo" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>OWASP - Sécurité</h4>
-                  <img src="public/img/owasp.png" alt="Logo HTML" />
+                  <img src="public/img/owasp.png" alt="Logo owasp" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>WCAG - Accessibilité</h4>
-                  <img src="public/img/accessibilite.png" alt="Logo HTML" />
+                  <img
+                    src="public/img/accessibilite.png"
+                    alt="Logo accessibilite"
+                  />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
-                  <h4>Traitement de l'image</h4>
-                  <img src="public/img/photoshop.png" alt="Logo HTML" />
+                  <h4>Maquettage</h4>
+                  <img src="public/img/figma_logo(1).png" alt="FIGMA" />
                 </div>
                 <div class="contenu_competences_details_annexes_vignette">
                   <h4>Bureautique</h4>
-                  <img src="public/img/word.png" alt="Logo HTML" />
-                  <img src="public/img/excel.png" alt="Logo HTML" />
-                  <img src="public/img/powerpoint.png" alt="Logo HTML" />
-                </div>
-                <div class="contenu_competences_details_annexes_vignette">
-                  <h4>AUTRE</h4>
-                  <img src="public/img/mysql.png" alt="Logo HTML" />
-                </div>
-                <div class="contenu_competences_details_annexes_vignette">
-                  <h4>AUTRE</h4>
-                  <img src="public/img/sequelize.png" alt="Logo HTML" />
+                  <img src="public/img/word.png" alt="Logo word" />
+                  <img src="public/img/excel.png" alt="Logo excel" />
+                  <img src="public/img/powerpoint.png" alt="Logo powerpoint" />
                 </div>
               </div>
             </div>
@@ -705,7 +715,7 @@
               <div class="nom_projet_description">
                 <div class="nom_projet_description_visu">
                   <img
-                    src="public/img/img_projets/ohmyfood.JPG"
+                    src="public/img/img_projets/CV_en_ligne.JPG"
                     alt="Visuel du site Perso d'Olivier VILLAVERDE"
                     class="img_projet"
                   />
@@ -725,6 +735,7 @@
                       </li>
                       <li>
                         Utiliser les compétenses acquises en HTML CSS SASS
+                        JAVASCRIPT
                       </li>
                     </ul>
                   </div>
@@ -733,8 +744,8 @@
                       Compétences développés :
                     </h5>
                     <ul class="nom_projet_description_details_plus">
-                      <li>HTML CSS SASS</li>
-                      <li>Hébergemen de site web</li>
+                      <li>HTML CSS SASS JAVASCRIPT</li>
+                      <li>Hébergement de site web</li>
                     </ul>
                   </div>
                   <div>
@@ -742,7 +753,7 @@
                       Technologies utilisées :
                     </h5>
                     <p class="nom_projet_description_details_plus">
-                      HTML - CSS - SASS
+                      HTML - CSS - SASS - JS
                     </p>
                   </div>
                   <div class="nom_projet_description_details_liens">
@@ -764,11 +775,74 @@
             </div>
             <!-- ---------FIN PROJETS 7---------- -->
 
-            <!-- --------- PROJETS 8---------- -->
+            <!-- --------- PROJETS 8 - SITE LA BUISSONNANTE ---------- -->
 
             <div class="nom_projet">
               <div class="nom_projet_titre">
-                <h3>APEL 79 - En construction</h3>
+                <h3>La Buissonnante</h3>
+              </div>
+              <div class="nom_projet_description">
+                <div class="nom_projet_description_visu">
+                  <img
+                    src="public/img/img_projets/la_buissonnante.JPG"
+                    alt="Visuel du site de LA BUISSONNANTE"
+                    class="img_projet"
+                  />
+                </div>
+                <div class="nom_projet_description_details">
+                  <h4 class="nom_projet_description_details_titre">
+                    Création du site internet de La Buissonnante
+                  </h4>
+                  <div>
+                    <h5 class="nom_projet_description_details_soustitre">
+                      But du projet :
+                    </h5>
+                    <ul class="nom_projet_description_details_plus">
+                      <li>
+                        Création du site internet de l'association La
+                        Buissonnante basée sur Bressuire.
+                      </li>
+                      <li>
+                        Apprendre à utiliser le constructeur de site WordPress.
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 class="nom_projet_description_details_soustitre">
+                      Compétences développés :
+                    </h5>
+                    <ul class="nom_projet_description_details_plus">
+                      <li>CSS</li>
+                      <li>Hébergement de site web</li>
+                      <li>WordPress</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 class="nom_projet_description_details_soustitre">
+                      Technologies utilisées :
+                    </h5>
+                    <p class="nom_projet_description_details_plus">
+                      HTML - CSS - PHP
+                    </p>
+                  </div>
+                  <div class="nom_projet_description_details_liens">
+                    <a
+                      class="nom_projet_description_details_liens1"
+                      href="https://labuissonnante.org/"
+                      target="_blank"
+                      >voir le site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ---------FIN PROJETS 8---------- -->
+
+            <!-- --------- PROJETS 9---------- -->
+
+            <div class="nom_projet">
+              <div class="nom_projet_titre">
+                <h3>APEL 79</h3>
               </div>
               <div class="nom_projet_description">
                 <div class="nom_projet_description_visu">
@@ -799,8 +873,8 @@
                       Compétences développés :
                     </h5>
                     <ul class="nom_projet_description_details_plus">
-                      <li>HTML CSS</li>
-                      <li>Vue.js 3</li>
+                      <li>Wordpress</li>
+                      <li>Hébergement de site web</li>
                     </ul>
                   </div>
                   <div>
@@ -811,32 +885,18 @@
                       HTML - CSS
                     </p>
                   </div>
-                  <div>
-                    <h5 class="nom_projet_description_details_soustitre">
-                      Détails du cahier des charges :
-                    </h5>
-                    <p class="nom_projet_description_details_plus">
-                      Voir les maquettes
-                    </p>
-                  </div>
                   <div class="nom_projet_description_details_liens">
                     <a
                       class="nom_projet_description_details_liens1"
-                      href="#"
+                      href="https://www.apel79.fr/"
                       target="_blank"
                       >voir le site</a
-                    >
-                    <a
-                      class="nom_projet_description_details_liens1"
-                      href="#"
-                      target="_blank"
-                      >voir le github</a
                     >
                   </div>
                 </div>
               </div>
             </div>
-            <!-- ---------FIN PROJETS 8---------- -->
+            <!-- ---------FIN PROJETS 9---------- -->
           </div>
         </div>
       </section>
@@ -846,6 +906,33 @@
         <div class="contenu">
           <h2>Parcours professionnel</h2>
           <div class="contenu_pro">
+            <!-- --------- PRO 1.2 ---------- -->
+            <div class="nom_pro">
+              <h3 class="titre_gauche">Développeur Web</h3>
+              <p>MAIF Niort (79)</p>
+              <p>Depuis mai 2024</p>
+              <ul>
+                <li>Création d'une application backoffice.</li>
+                <li>Divers projets.</li>
+              </ul>
+            </div>
+            <!-- --------- FIN PRO 1.2 ---------- -->
+
+            <!-- --------- PRO 1.1 ---------- -->
+            <div class="nom_pro">
+              <h3 class="titre_gauche">Développeur Web</h3>
+              <p>ACOEURO Pougne-Herisson (79)</p>
+              <p>Mars 2023</p>
+              <ul>
+                <li>Création d'un site vitrine avec WordPress.</li>
+                <li>
+                  Participation au projet meta-press.es : Moteur de recherche
+                  décentralisé & revue de presse automatisée.
+                </li>
+              </ul>
+            </div>
+            <!-- --------- FIN PRO 1.1 ---------- -->
+
             <!-- --------- PRO 1 ---------- -->
             <div class="nom_pro">
               <h3 class="titre_gauche">Technicien Hotline</h3>
@@ -932,6 +1019,101 @@
         <div class="contenu">
           <h2>Formations</h2>
           <div class="contenu_form">
+            <!-- --------- FORM 1.2 ---------- -->
+            <div class="nom_form">
+              <h3 class="titre_gauche">
+                Titre Professionnel Concepteur Développeur d'Applications
+              </h3>
+              <p>Simplon Niort (79)</p>
+              <p>Depuis janvier 2024</p>
+
+              <p>Projet :</p>
+              <p>
+                Application web à partir d’un cahier des charges : <br />
+                Le sujet est la création d’un site web pour une association :
+                Initiative Deux-Sèvres
+              </p>
+
+              <p>Technologies :</p>
+              <ul>
+                <li>Langages : Java, Kotlin, XML, HTML5, CSS, Javascript</li>
+                <li>IDE : IntelliJ</li>
+                <li>Plateformes /frameworks : Spring Boot - React</li>
+                <li>Base de données : PostGres</li>
+              </ul>
+
+              <p>Compétences :</p>
+
+              <ul>
+                <li>
+                  Installer et configurer son environnement de travail en
+                  fonction du projet
+                </li>
+                <li>Développer des interfaces utilisateur</li>
+                <li>Développer des composants métier</li>
+                <li>Contribuer à la gestion d'un projet informatique</li>
+              </ul>
+
+              <ul>
+                <li>Analyser les besoins et maquetter une application</li>
+                <li>Définir l'architecture logicielle d'une application</li>
+                <li>
+                  Concevoir et mettre en place une base de données relationnelle
+                </li>
+                <li>
+                  Développer des composants d'accès aux données SQL et NoSQL
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  Préparer et exécuter les plans de tests d'une application
+                </li>
+                <li>Préparer et documenter le déploiement d'une application</li>
+                <li>
+                  Contribuer à la mise en production dans une démarche DevOps
+                </li>
+              </ul>
+            </div>
+            <!-- --------- FIN FORM 1.2 ---------- -->
+
+            <!-- --------- FORM 1.1 ---------- -->
+            <div class="nom_form">
+              <h3 class="titre_gauche">POEC - JAVA EE</h3>
+              <p>ENI Ecole Informatique Niort (79)</p>
+              <p>De juin 2023 à septembre 2023</p>
+
+              <p>Projet :</p>
+              <p>
+                Application web à partir d’un cahier des charges : <br />
+                Le sujet est la création d’un site web de ventes aux enchères.
+              </p>
+
+              <p>Technologies :</p>
+              <ul>
+                <li>Langages : Java, XML, HTML5, CSS, Javascript</li>
+                <li>IDE : Eclipse</li>
+                <li>
+                  Plateformes /frameworks : Java SE et EE, jQuery, Spring, Git
+                </li>
+              </ul>
+
+              <p>Compétences :</p>
+              <ul>
+                <li>Développer des composants d’accès aux données</li>
+                <li>
+                  Développer la partie front-end d’une interface utilisateur web
+                </li>
+                <li>
+                  Développer la partie back-end d’une interface utilisateur web
+                </li>
+                <li>Mettre en place une base de données</li>
+                <li>Développer des composants métiers</li>
+                <li>Construire une application organisée en couches</li>
+              </ul>
+            </div>
+            <!-- --------- FIN FORM 1.1 ---------- -->
+
             <!-- --------- FORM 1 ---------- -->
             <div class="nom_form">
               <h3 class="titre_gauche">
@@ -951,7 +1133,6 @@
                 <ul>
                   <li>
                     <a href="#">Créez votre site web avec HTML5 et CSS3</a>
-                    target="_blank"
                   </li>
                   <li>
                     <a href="#" target="_blank"
@@ -1090,17 +1271,7 @@
                 />
                 <h4>Association de parents d'élèves de l'enseignement libre</h4>
               </div>
-              <div>
-                <img
-                  class="apel_p"
-                  src="public/img/img_interet/logoApelSMSJ.png"
-                  alt="Logo Apel Sainte Marie Saint Joseph de Secondigny"
-                />
-                <h4>
-                  Président de l'Apel de l'ensemble scolaire Sainte Marie Saint
-                  Joseph de Secondigny
-                </h4>
-              </div>
+
               <div>
                 <img
                   class="apel_g"
@@ -1108,8 +1279,18 @@
                   alt="Logo Apel des Deux-Sèvres"
                 />
                 <h4>
-                  Membre du conseil d'administration de l'Apel des Deux-Sèvres
-                  et de l'academie de Poitiers
+                  Administrateur de l'Apel 79 et de l'academie de Poitiers
+                </h4>
+              </div>
+
+              <div>
+                <img
+                  class="apel_g"
+                  src="public/img/img_interet/comité_des_fetes.jpg"
+                  alt="Logo du comité des fêtes de LA BOISSIERE EN GATINE"
+                />
+                <h4>
+                  Admistrateur du comité des fêtes de LA BOISSIERE EN GATINE
                 </h4>
               </div>
             </div>
@@ -1139,7 +1320,7 @@
                 />
                 <img
                   class="img_loisirs"
-                  src="public/img/img_interet/logowarframe.png"
+                  src="public/img/img_interet/xbox2.jpg"
                   alt="logo du jeu video warframe"
                 />
                 <h4>Jeux de société - vidéo</h4>
@@ -1160,8 +1341,9 @@
 
     <footer>
       <div class="contenu_footer">
-        <p>Olivier Villaverde - 2022</p>
+        <p class="contenu_footer_texte">Olivier Villaverde - 2022-2025</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
